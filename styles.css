@@ -91,6 +91,33 @@ section{
     position: absolute;
     left: 50px;
 }
+.section-2,
+.section-3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.section-2 ul, .section-3 ul{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 65px;
+
+}
+ul li{
+    list-style: none;
+}
+.section-2 h1, .section-3 h1{
+    font-size: 96px;
+    font-weight: 700;
+    border-right: 1px solid #d4d1d1;
+    padding-right: 40px;
+}
+ul li img{
+    width: 150px;
+    height: 150px;
+}
 .hr-1{
     left: 25%;
 }
@@ -106,8 +133,8 @@ section{
 .rotate{
     transform: rotate(90deg);
 }
-
 .a-1{
     margin-top: 100px;
 }
+
 
