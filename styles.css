@@ -50,7 +50,8 @@ section{
     padding-right: 40px;
 }
 .section-1 h1{
-    
+    font-size: 96px;
+
 }
 .rotate{
     transform: rotate(90deg);
