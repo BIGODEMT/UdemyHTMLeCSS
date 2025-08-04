@@ -5,8 +5,8 @@
 body{
     font-weight: 400;
     color: aliceblue;
-    background: rgb(2, 8, 50);
-    font-family: "Orbitron", sans-serif;
+    background: rgb(5, 6, 17);
+    font-family: "Montserrat", sans-serif;
 }
 
 header{
@@ -15,7 +15,7 @@ header{
     align-items: center;
     padding-left:30px;
     height: 100px;
-    background: rgb(4, 14, 96);
+    background: rgba(6, 14, 125, 0.714);
 }
 
 header h3{
@@ -29,7 +29,25 @@ section{
     height: 100vh;
 }
 .section-1{
+    height:calc(100vh - 100px) ;
     position: relative ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.section-1 article{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: 100px;
+    margin-bottom: 100px;
+
+}
+.section-1 article h2{
+    margin-bottom: 180px;
+    margin-left: 80px;
 }
 .section-1 div{
     display: flex;
@@ -41,8 +59,8 @@ section{
     top: 25%;
 }
 .section-1 h3{
-    font-size: 28px;
-    margin-bottom: 120px;
+    font-size: 25px;
+    margin-bottom: 130px;
 }
 .section-1 hr{
     width: 100%;
@@ -53,6 +71,13 @@ section{
     font-size: 96px;
 
 }
+.section-1 strong{
+    font-weight: bold;
+}
+.section-1 h2{
+    font-size: 36px;
+
+}
 .rotate{
     transform: rotate(90deg);
 }
@@ -60,3 +85,4 @@ section{
 .a-1{
     margin-top: 100px;
 }
+
