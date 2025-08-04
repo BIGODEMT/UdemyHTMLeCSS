@@ -62,7 +62,7 @@ section{
     font-size: 25px;
     margin-bottom: 130px;
 }
-.section-1 hr{
+.section-1 div hr{
     width: 100%;
     padding-left: 40px;
     padding-right: 40px;
@@ -77,6 +77,31 @@ section{
 .section-1 h2{
     font-size: 36px;
 
+}
+.section-1 hr:not(.rotate) {
+    position: absolute;
+    opacity: 0.1;
+    height: 90%;
+    margin-bottom: 40px;
+    z-index: -1;
+
+}
+.section-1 p{
+    margin-bottom: 70px;
+    position: absolute;
+    left: 50px;
+}
+.hr-1{
+    left: 25%;
+}
+.hr-2{
+    left: 45%;
+}
+.hr-3{
+    left: 65%;
+}
+.hr-4{
+    left: 80%;
 }
 .rotate{
     transform: rotate(90deg);
